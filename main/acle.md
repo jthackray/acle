@@ -1200,11 +1200,6 @@ in either header file available.
 
 ### Predefined feature macros and header files
 
-The SVE and SME headers provide intrinsic names regardless of whether the
-corresponding feature macros are defined. The feature macros indicate which
-intrinsics can be used in the current compilation context; they do not
-control which intrinsic names the headers provide.
-
 Evaluating a feature macro returns the availability of intrinsics and inline
 assembly for that feature, but no assumptions should be made on the order or
 context in which the preprocessor macros are evaluated. For example:
